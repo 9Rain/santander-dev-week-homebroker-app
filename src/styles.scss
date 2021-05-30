@@ -1,0 +1,13 @@
+@import './app/shared/scss/variables';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: $backgroudColor;
+  font-family: 'Segoe UI', sans-serif;
+}
