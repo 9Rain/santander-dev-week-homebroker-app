@@ -1,4 +1,12 @@
-@import './app/shared/scss/variables';
+:root {
+  --backgroudColor: #eaeaea;
+  --primaryColor: #ea1d25;
+  --secondaryColor: #fff;
+  --textColor: #5c6369;
+  --textColorLight: rgba(92, 99, 105, 0.45);
+  --positiveVariationColor: #87d883;
+  --negativeVariationColor: #f55a5f;
+}
 
 * {
   box-sizing: border-box;
@@ -8,6 +16,6 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-color: $backgroudColor;
+  background-color: var(--backgroudColor);
   font-family: 'Segoe UI', sans-serif;
 }

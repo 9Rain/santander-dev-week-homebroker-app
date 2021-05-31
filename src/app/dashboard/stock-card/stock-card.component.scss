@@ -1,13 +1,11 @@
-@import '../../shared/scss/variables';
-
 .stock-card-container {
   width: 21.375rem;
   height: 13.8125rem;
   padding: 1rem;
   margin: 1rem;
   border-radius: 0.25rem;
-  background-color: $secondaryColor;
-  border-left: solid $positiveVariationColor 0.25rem;
+  background-color: var(--secondaryColor);
+  border-left: solid var(--positiveVariationColor) 0.25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,10 +17,10 @@
   }
 
   &.negative-variation {
-    border-left-color: $negativeVariationColor;
+    border-left-color: var(--negativeVariationColor);
 
     .variation {
-      background-color: $negativeVariationColor;
+      background-color: var(--negativeVariationColor);
     }
   }
 
@@ -38,13 +36,13 @@
     }
 
     h2 {
-      color: $textColor;
+      color: var(--textColor);
     }
 
     p {
       font-weight: 500;
       font-size: 0.875rem;
-      color: $textColorLight;
+      color: var(--textColorLight);
     }
   }
 
@@ -58,15 +56,15 @@
     .value {
       font-weight: 500;
       font-size: 3rem;
-      color: $textColor;
+      color: var(--textColor);
     }
 
     .variation {
       padding: 0.25rem 0.5rem;
       margin-top: 0.25rem;
       border-radius: 0.25rem;
-      background-color: $positiveVariationColor;
-      color: $secondaryColor;
+      background-color: var(--positiveVariationColor);
+      color: var(--secondaryColor);
       align-self: flex-end;
       font-size: 0.875rem;
     }
